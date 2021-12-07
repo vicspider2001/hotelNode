@@ -7,7 +7,7 @@ dotenv.config();
 var MongoUrl = 'mongodb+srv://test:testuser@cluster0.gcwdn.mongodb.net/Hotels?retryWrites=true&w=majority';
 var cors = require('cors')
 const bodyParser = require('body-parser')
-var  port = process.env.PORT || 1322;
+var  port = process.env.PORT || 1977;
 var db;
 
 hotel.use(bodyParser.urlencoded({extended:true}));
